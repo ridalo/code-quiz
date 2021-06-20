@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>True or False Game</title>
+</head>
+
+<body>
+    <header>
+        <a href="./highscore.html" id="linkscore"> View High Score</a>
+        <div id="timerContainer">
+            <p id="countDown">Timer
+            </p>
+        </div>
+    </header>
+    <main id="main">
+        <div id="intro">
+            <h1>Java Coding Challenge Quiz</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In asperiores expedita distinctio. Pariatur
+                voluptates dolore, quaerat harum nemo, magni sit quidem alias blanditiis earum odio, ipsam illo tenetur
+                illum consequuntur!</p>
+            <button id="start-button">Start Game</button>
+            <hr>
+        </div>
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-button" class="button-set">
+                <button id="btn" class="btn-btn">Answer 1</button>
+                <button id="btn" class="btn-btn">Answer 2</button>
+                <button id="btn" class="btn-btn">Answer 3</button>
+                <button id="btn" class="btn-btn">Answer 4</button>
+
+            </div>
+            <hr>
+            <div id="popup" class="hide">
+                <h2>Correct!</h2>
+            </div>
+
+            <hr>
+        </div>
+
+        <div id="game-end" class="hide">
+            <h2>End of Game!</h2>
+            <h3 id="final-score-is">This is your score</h3>
+            <form>
+                <label for="name"> Enter Name:</label>
+                <input type="text" id="player-name" placeholder="Enter Name">
+                <button id="submit-button" class="submit">submit</button>
+            </form>
+        </div>
+
+        
+    </main>
+
+
+
+
+
+
+    <script src="./assets/java.js"></script>
+</body>
+
+</html>
