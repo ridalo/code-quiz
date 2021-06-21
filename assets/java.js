@@ -5,11 +5,11 @@ var currentIndex = 0;
 var questionDisplay = document.getElementById("question");
 var answerButtonEl = document.getElementById("answer-button");
 var popup = document.getElementById("popup");
-var timerEl = document.getElementById("countDown")
-var GameEndEL = document.getElementById("game-end")
-var finalScore = document.getElementById("final-score-is")
+var timerEl = document.getElementById("countDown");
+var GameEndEL = document.getElementById("game-end");
+var finalScore = document.getElementById("final-score-is");
 var submitBtnEl = document.getElementById("submit-button");
-var nameOfPlayerEl = document.getElementById("player-name")
+var nameOfPlayerEl = document.getElementById("player-name");
 var questions = [
     {
         question: "What are variables used for in JavaScript Programs?",
@@ -21,30 +21,30 @@ var questions = [
         ],
     },
     {
-        question: "Another?",
+        question: "What is the capital of Connecticut?",
         answers: [
-            { Text: "Storing numbers, dates, or other values", correct: true },
-            { Text: "Varying randomly", correct: true },
-            { Text: "Causing high-school algebra flashback", correct: false },
-            { Text: "Storing numbers, dates, or other values", correct: false },
+            { Text: "Hartford", correct: true },
+            { Text: "Albany", correct: false },
+            { Text: "Yarmouth", correct: false },
+            { Text: "A place where people get stabbed.", correct: true },
         ],
     },
     {
-        question: "Another one?",
+        question: "How much wood would a woodchuck chuck if a woodchuck could chuck wood?",
         answers: [
-            { Text: "Storing numbers, dates, or other values", correct: true },
-            { Text: "Varying randomly", correct: true },
-            { Text: "Causing high-school algebra flashback", correct: false },
-            { Text: "Storing numbers, dates, or other values", correct: false },
+            { Text: "35 cubic feet", correct: false },
+            { Text: "42", correct: false },
+            { Text: "All of 3", correct: false },
+            { Text: "700 pounds", correct: true },
         ],
     },
     {
-        question: "Another one!",
+        question: "How many licks does it take to get to the center of a Tootsie-pop?",
         answers: [
-            { Text: "Storing numbers, dates, or other values", correct: true },
-            { Text: "Varying randomly", correct: true },
-            { Text: "Causing high-school algebra flashback", correct: false },
-            { Text: "Storing numbers, dates, or other values", correct: false },
+            { Text: "One", correct: false },
+            { Text: "Two", correct: false },
+            { Text: "Three", correct: false },
+            { Text: "The world may never know.", correct: true },
         ],
     },
 ];
